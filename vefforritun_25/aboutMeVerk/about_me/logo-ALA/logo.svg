@@ -1,0 +1,22 @@
+<!-- LOGO  -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="120" width="120" height="120" role="img" aria-labelledby="title2">
+  <title id="title2">A.L.A lógó</title>
+  <defs>
+    <style>
+      .accent{ fill: var(--logo-accent, #dc85d5); } 
+      .stroke{ stroke: var(--logo-accent, #dc85d5); }
+      .circleText{ fill: #edb1f1; font: 700 28px/1 system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+  </defs>
+ 
+  <!-- hringur -->
+  <circle cx="60" cy="60" r="42" fill="#ccedff" stroke="currentColor" stroke-width="6" class="stroke"/>
+  
+  <!-- þrír "pikslar" -->
+  <rect x="92" y="20" width="10" height="10" class="accent"/>
+  <rect x="104" y="32" width="10" height="10" class="accent" opacity="0.8"/>
+  <rect x="80" y="16" width="10" height="10" class="accent" opacity="0.6"/>
+  
+  <!-- texti A.L.A í miðju -->
+  <text x="60" y="64" class="circleText">A.L.A</text>
+</svg>

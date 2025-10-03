@@ -1,0 +1,10 @@
+SQL
+CREATE TABLE project_assignments (
+    project_id INT, 
+    employee_id INT,
+    project_name VARCHAR(255),
+    project_budget DECIMAL(10, 2),
+    employee_name VARCHAR(100),
+    employee_department VARCHAR(100),
+    PRIMARY KEY (project_id, employee_id)
+);

@@ -1,0 +1,16 @@
+:root{
+// Wire up UI events
+ui.on('toggleWire', () => engine.toggleWireframe())
+ui.on('reset', () => engine.resetWorld())
+ui.on('selectBlock', (id) => engine.setHeldBlock(id))
+
+
+// start
+engine.init().then(() => {
+controls.connect()
+engine.start()
+ui.start()
+})
+
+
+window.engine = engine

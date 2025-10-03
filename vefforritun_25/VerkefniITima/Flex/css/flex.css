@@ -1,0 +1,105 @@
+html {
+    border-collapse: collapse;
+    display: flex;
+}
+
+header, main {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+#efst {
+    text-align: center;
+    background-color: pink;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    font-family: 'informal roman';
+    font-size: 100px;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+nav {
+    text-align: center;
+    background-color: pink;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    font-family: copperplate gothic, 'arial black', cursive, arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #810f67;
+}
+
+.container {
+    background-color: pink;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 0px;
+    padding: 150px;
+    padding-top: 50px;
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item {
+    text-align: center;
+    height: 300px;
+    border-radius: 0;
+    margin: 0;
+    background-color: red;
+    padding: center;
+    border-collapse: collapse;
+    flex: 1 1 300px;
+}
+
+.vinstri {
+    border-left: 25px solid white;
+    border-right: 25px solid white;
+}
+
+.haegri {
+    border-right: 25px solid white;
+    border-left: 25px solid white;
+}
+
+.vinstri, .haegri {
+    border-bottom: 25px solid white;
+    border-top: 25px solid white;
+}
+
+#hafdu_samband {
+    background-color: pink;
+    border-right: solid black;
+    border-left: solid black;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: left;
+    background-color: pink;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#samband {
+    text-align: center;
+    background-color: pink;
+    margin: 0;
+}

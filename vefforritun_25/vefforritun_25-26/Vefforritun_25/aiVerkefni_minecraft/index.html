@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="is">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>MicroCraft — Vefforrit (HTML/CSS/JS)</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+<canvas id="three-canvas"></canvas>
+
+
+<div id="hud">
+<div id="topbar">
+<div id="seed">Seed: <span id="seedVal">—</span></div>
+<div id="time">Time: <span id="timeVal">—</span></div>
+</div>
+
+
+<div id="toolbar">
+<div class="slot active" data-block="1">🪵</div>
+<div class="slot" data-block="2">🪨</div>
+<div class="slot" data-block="3">🌱</div>
+<div class="slot" data-block="4">💡</div>
+</div>
+
+
+<div id="minimap"></div>
+
+
+<div id="footer">
+<button id="toggleWire">Toggle Wireframe</button>
+<button id="resetBtn">Reset World</button>
+</div>
+</div>
+
+
+<div id="instructions">
+WASD to move — Left click to place, Right click to remove — Space to jump — Scroll to change hotbar
+</div>
+</div>
+
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

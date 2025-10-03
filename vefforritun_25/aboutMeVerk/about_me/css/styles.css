@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: #ccedff;
+    line-height: 1.6;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: #edb1f1;
+    background-color: #300054;
+    text-align: center;
+    box-shadow: 10px 5px 5px 10px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+h2 {
+    color: #edb1f1;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ccedff;
+    padding: 10px;
+    text-align: left; 
+    color: #ccedff;
+}

@@ -1,0 +1,12 @@
+// lightweight Simplex/Perlin alternative for terrain generation. Tiny implementation adapted for demo.
+export class SimplexNoise{
+constructor(seed=0){
+this.seed = seed
+}
+// fractal-like 2D noise (very simple hash-based)
+noise2D(x,y){
+// pseudo-random deterministic hash
+const s = Math.sin(x*127.1 + y*311.7 + this.seed)*43758.5453
+return (s - Math.floor(s)) * 2 -1
+}
+}
