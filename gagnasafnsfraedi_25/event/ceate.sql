@@ -30,15 +30,5 @@ CREATE TABLE organizers (
     id SERIAL PRIMARY KEY,
     name VARCHAR(1000),
     email VARCHAR(1000) UNIQUE,
-    phone_number VARCHAR(15) UNIQUE,
-);
-
-CREATE TABLE eventOrganizers (
-    event_id INTEGER,
-    organizer_id INTEGER
-);
-
-CREATE TABLE eventTickets (
-    event_id INTEGER,
-    ticket_id INTEGER
+    phone_number VARCHAR(15) UNIQUE
 );
