@@ -4,7 +4,7 @@ lond = ["japan", "filippseyjar", "bretland", "kólumbía", "spánn", "venesúla"
 
 num=0
 while num<5:       #Gerir aftur og aftur þangað til notandinn slær inn 5 eða hærri tölu
-    num = int(input("Hvað viltu  bæta við mörgum löndum? (minnst 5)): "))
+    num = int(input("Hvað viltu bæta við mörgum löndum? (minnst 5)): "))
 
 for i in range (0,num):
     lond.append (str(input("Sláðu inn nýtt land á listann: ")))
@@ -21,7 +21,7 @@ for i in range (0,len(lond),3):
 print ()
 
 #prentar landið í miðjunni
-print ("Landið í miðjunni er: ", lond[(round(len(lond)/2)-1)])
+print ("Landið í miðjunni er:", lond[(round(len(lond)/2)-1)])
 
 #prentar fyrsta stafinn í öllum löndunum
 print ("Fyrsti stafurinn í öllum nöfnum er:", end=" ")
