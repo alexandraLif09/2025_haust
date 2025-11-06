@@ -48,9 +48,9 @@ VALUES ('Jón', 'Sigurðsson', 'js@fb.is', '5554950', 'Beljuland'),
 ('Karl', 'Magnússon', 'km@fb.is', '55524876', 'Dúfnahólar'),
 ('Alexandra Líf', 'Adolphssdóttir','alexadolph@gmail.com', '5552343', 'Tinnuberg');
 
+SELECT * FROM customers;
+
 INSERT INTO pizzaOrders (idPizza, idCustomer)
 VALUES (3, 2);
 
 SELECT * FROM pizzaOrders;
-
-SELECT * FROM customers;

@@ -14,6 +14,14 @@ CREATE TABLE pizzas (
     price INTEGER
 );
 
+CREATE TABLE ingredients (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) UNIQUE,
+    PortionSize SMALLINT NOT NULL,
+    price NUMERIC(10,2) NOT NULL CHECK (price > 0),
+    isVegan BOOLEAN NOT NULL DEFAULT FALSE
+);
+
 CREATE TABLE pizzaOrders (
     id SERIAL PRIMARY KEY,
     idPizza INTEGER,
