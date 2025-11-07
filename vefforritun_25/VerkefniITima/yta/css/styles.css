@@ -1,0 +1,24 @@
+.container {
+    background-color: palegreen;
+    text-align: center;
+}
+
+h1  {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#shapes {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 0%;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: #ece75f;
+    margin-bottom: 50px;
+}
+
+#yta {
+    background-color: #90e0ef;
+    text-align: center;
+}
