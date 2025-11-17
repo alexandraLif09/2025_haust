@@ -106,19 +106,41 @@ const teachers = [
 ];
 
 const renderList = (list) => {
-    listContainer.innerHTML = '';
+    list.innerHTML = '';
 
     list.forEach(students => {
 
         let extraClass = '';
-        if (students.school === 'Fjölbrautarskólinn í Breiðholti'){
+        if (students.school === 'Fjölbrautarskólinn í Breiðholti') {
             extraClass = 'FB';
         } else if (students.school === 'Flensborgarskólinn') {
             extraClass = 'Flens'
+        } else if (students.school === 'Menntaskólinn við Hamrahlíð') {
+            extraClass = 'MH'
+        } else if (students.school === 'Menntaskólinn í Kópavogi') {
+            extraClass = 'MK'
+        } else if (students.school === 'Menntaskólinn í Reykjavík') {
+            extraClass = 'MR'
+        } else if (students.school === 'Verzlunarskóli Íslands') {
+            extraClass = 'Verzlo'
+        } else if (students.school === 'Setbergsskóli') {
+            extraClass = 'Seto'
+        } else if (students.school === 'Grundaskóli') {
+            extraClass = 'Grundo'
         } 
 
-        const cardHtml = `
-        <article class = "">
-        `
+        const studentsHtml = `
+        <article class = "skoli ${extraClass}">
+            <h3>${students.name}</h3>
+            <p>${students.school}</p>
+            <p>${students.course}<p>
+        </article>
+        `;
+
+        listi.insertAdjacentHTML('beforeend', studentsHtml)
     });
-}
+};
+
+allir.addEventListener('click', () => {
+    renderList(students && teachers);
+});
