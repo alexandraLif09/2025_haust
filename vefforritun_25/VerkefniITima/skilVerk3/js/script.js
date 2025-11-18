@@ -137,9 +137,10 @@ const renderList = (list) => {
         const peopleHtml = `
             <article class = "folk ${extraClass}">
                 <h3> ${people.name} </h3>
-                <p> ${people.school} <p>
-                <p> ${people.course} <p>
-                <p> ${people.status} <p>
+                <p> ${people.school} </p>
+                <p> ${people.course} </p>
+                <p> ${people.status} </p>
+            </artical>
         `;
         listi.insertAdjacentHTML('beforeend', peopleHtml);
     });

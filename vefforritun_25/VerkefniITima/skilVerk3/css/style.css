@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.folk {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.nemandi {
+  border-left: 6px solid #ddd;
+}
+
+.kennari {
+  border-left: 6px solid #e67300;
+}
+
+#listi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #ddd;
+}
+
+button:hover {
+  background: pink;
+}
