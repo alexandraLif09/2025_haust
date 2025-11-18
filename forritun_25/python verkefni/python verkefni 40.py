@@ -7,7 +7,7 @@ file = open("nofn (3).txt")
 listi = []         
 for line in file:   
     word = line.strip()     
-    if "e" in word:
+    if "e" in word.lower():
         listie.append(word)
     if "a" in word[2]:
         listi3a.append(word)
