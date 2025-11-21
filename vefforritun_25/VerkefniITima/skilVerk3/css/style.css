@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: grid;
+    gap: 5px;
+    margin: 14px;
+    flex-wrap: wrap;
+}
+
 .folk {
   padding: 1rem;
   margin: 1rem 0;
@@ -20,8 +27,8 @@
 }
 
 #listi {
-  display: flex;
-  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-basis: 200;
   gap: 1rem;
 }
 
