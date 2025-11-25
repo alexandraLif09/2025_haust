@@ -1,0 +1,53 @@
+faerslunumer;	auðkenni kaupsamnings í skrá Þjóðskrár Íslands
+rfastnum;	auðkenni eignar, ef eign selst oftar en einu sinni eru margar færslur á rfastnum
+kdagur	;	kaupdagur
+nuvirdi	;	núvirði (staðgreiðsluvirði kaupsamnings)
+kaupverd;	kaupverð
+grfast	;	hluti kaupverðs greiddur með annarri fasteign
+grlaus	;	hluti kaupverðs greiddur með lausafé (bíl, bát, ...)
+teg_eign;	texti með lýsingu eignar
+svfn	;	auðkenni sveitarfélags (sjá sér "Sheet")
+byggd	;	auðkenni byggðar innan sveitarfélags
+lodpflm	;	hlutdeild eignar í lóðarflatarmáli
+abnflm	;	flatarmál í lokunarflokkum A og B
+nythl	;	nýtingarhlutfall lóðar
+adferd	;	1 ef skráningartafla, 0 annars
+efnu	;	byggingarefni (sjá skýrslu um fasteignamat)
+byggar	;	byggingarár
+mbstig	;	byggingarstig
+ist120	;	flokkun eignar (sjá skýrslu um fasteignamat)
+efstah	;	Númer efstu hæðar í húsi (matshluta)
+haednr	;	númer aðalhæðar eignar
+fjibmhl	;	fjöldi íbúða í húsi (matshluta)
+fjmib	;	fjöldi íbúða í eign
+lyfta	;	fjöldi lyfta í húsi (matshluta)
+ummal	;	ummál eignar
+haedflm	;	meðalflatarmál hæðar
+birtm2	;	birt flatarmál (flatarmál séreignar)
+ibm2	;	íbúðarflatarmál
+ntm2	;	nettó flatarmál
+fjhaed	;	fjöldi hæða í fasteign
+fjbilast;	fjöldi bílastæða í bílageymslu
+fjbkar	;	fjöldi baðkara
+fjsturt	;	fjöldi sturta
+fjklos	;	fjöldi klósetta
+fjeld	;	fjöldi eldhúsa
+fjherb	;	fjöldi herbergja
+fjstof	;	fjöldi stofa
+fjgeym	;	fjöldi geymsla
+studull	;	leiðrétting vegna skoðunar
+stig10	;	Mælikvarði á hversu langt eign er komin í byggingu (10 fullklárað)
+ib1m2	;	Íbúðarflatarmál á hæð
+ib2m2	;	Íbúðarflatarmál í kjallara
+ib3m2	;	Íbúðarflatarmál í risi
+bilskurm2;	Bílskúrsflatarmál
+bilgm2	;	Flatarmál bílgeymslna
+svalm2	;	Svalaflatarmál
+geymm2	;	Geymsluflatarmál
+rism2	;	Flatarmál í risi þar sem salarhæð er undir 1,8m
+matssvaedi;	Matssvæði (sjá kort á http://www.skra.is)
+undirmatssvaedi;	Undirmatssvæði (sjá kort á http://www.skra.is )
+fjibhaed;	Fjöldi íbúða á hæð í húsi (matshluta)
+ibteg	;	Tegund íbúðar (11 = sérbýli, 12 = fjölbýli)
+sernotad	;	1 ef kaupsamningur var notaður við líkangerð sérbýlishúsa
+fjolnotad	;	1 ef kaupsamningur var notaður við líkangerð fjölbýlishúsa

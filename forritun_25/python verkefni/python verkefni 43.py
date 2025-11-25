@@ -15,8 +15,9 @@ while aftur:
         print(n, "+", end = " ")
     print()
 
-    for n in nafn:
-        print (nafn[::-1])
+    for i in range (len(nafn),0, -1):
+        print (nafn[i-1], end="")
+    print()
 
     print("....................................")
     skoli = str(input("Í hvaða skóla ertu í? "))
@@ -30,4 +31,6 @@ while aftur:
     svar = str(input("viltu keyra forritið aftur? "))
     if svar == "já" or svar == "já" or svar == "JÁ":
         aftur = True
-
+    else:
+        aftur = False
+print ("Forritið er búið")

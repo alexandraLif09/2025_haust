@@ -9,6 +9,11 @@
     gap: 5px;
     margin: 14px;
     flex-wrap: wrap;
+    display: flex;
+}
+
+h1 {
+  text-align: center;
 }
 
 .folk {
@@ -27,9 +32,12 @@
 }
 
 #listi {
-  flex-grow: 1;
+  flex-grow: 10;
   flex-basis: 200;
   gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 button {
