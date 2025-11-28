@@ -20,15 +20,17 @@ h1 {
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 8px;
-  background: #fafafa;
+  background: #b6f2ec;
+  flex: 1;
 }
 
-.nemandi {
-  border-left: 6px solid #ddd;
+.student {
+  border-right: #2bb8b3 solid 20px;
 }
 
-.kennari {
-  border-left: 6px solid #e67300;
+#buttons {
+  display: block;
+  margin: 0 auto;
 }
 
 #listi {
@@ -44,7 +46,7 @@ button {
   padding: 10px 15px;
   border: none;
   border-radius: 6px;
-  background: #ddd;
+  background: #b6f2ec;
 }
 
 button:hover {
